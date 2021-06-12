@@ -151,6 +151,9 @@ $(document).ready(function($) {
             return false; 
         }
     });
+    $("ul").on("click", "li", function(){
+    $(this).wrap("<strike>");
+});
 });
 </script>
 </body>
